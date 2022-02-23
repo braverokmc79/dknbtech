@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+
+
+
+@media all and (max-width:500px) {
+    #s11_01 .main_sub_box {
+        margin-top: 50px !important;
+    }
+
+    .nav .nav-item {
+
+        font-size: 14px;
+    }
+
+    .nav .nav-item:nth-child(2) {
+        margin: 0px 64px 194px 180px;
+    }
+
+
+    #map-title {
+        /* right: -30%; */
+    }
+
+}
+
+@media only screen and (min-width:1400px) and (max-width: 1499px) {
+.new_tab.on > div {
+    left: 0px;
+    position: relative;
+}
+    .container-1400,
+    .p-container-1400 {
+        width: 1200px;
+    }
+
+    .container-1600 {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #map-title {
+        right: -906px;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width: 1399px) {
+
+    .container-1400,
+    .p-container-1400 {
+        width: 1110px;
+    }
+
+    .container-1600 {
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+
+    #map-title {
+        right: -721px;
+    }
+
+    .new_tab.on>div {
+        left: 51px;
+        position: relative;
+    }
+
+    .new_tab2.on #sub_ns_tab .ns_tab {
+        width: 18.5% !important;
+    }
+
+}
+
+@media only screen and (min-width:980px) and (max-width: 1199px) {
+
+    .container-1400,
+    .p-container-1400 {
+        width: 920px;
+    }
+
+    .container-1600 {
+        max-width: 920px;
+        margin: 0 auto;
+    }
+
+    #s11_05 .nav-item {
+        font-size: 1.6rem !important;
+        width: 150px !important;
+    }
+
+    #map-title {
+        right: -532px;
+    }
+
+    .new_tab.on>div {
+        left: 51px;
+        position: relative;
+    }
+
+    .new_tab2.on #sub_ns_tab .ns_tab {
+        width: 18.5% !important;
+    }
+
+}
+
+@media only screen and (min-width:770px) and (max-width: 979px) {
+
+    .container-1400,
+    .p-container-1400 {
+        width: 700px;
+    }
+
+    .container-1600 {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    #map-title {
+        right: -342px;
+        width: 130px;
+    }
+
+    #s11_05 .nav-item {
+        font-size: 1.5rem !important;
+        width: 100px !important;
+    }
+
+}
+
+@media only screen and (min-width:500px) and (max-width: 769px) {
+
+    #s11_04 .container-1400 {
+        max-width: 650px;
+    }
+
+    #map-title {
+        right: -237px;
+        width: 100px;
+    }
+
+    #s11_05 .nav-item {
+        font-size: 1.5rem !important;
+        width: 100px !important;
+    }
+}

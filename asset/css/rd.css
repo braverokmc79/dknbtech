@@ -1,0 +1,69 @@
+@charset 'utf-8';
+
+@media (max-width: 580px) {
+	#last-img {
+		margin-top: 100px !important;
+	}
+}
+
+.new_tab.on>div {
+	left: 260px;
+	position: relative;
+}
+
+
+@media only screen and (min-width:1400px) and (max-width: 1499px) {
+
+	.new_tab.on>div {
+		left: 200px;
+		position: relative;
+	}
+
+}
+
+@media only screen and (min-width:1200px) and (max-width: 1399px) {
+	.new_tab.on>div {
+		left: 150px;
+		position: relative;
+	}
+
+}
+
+
+@media only screen and (min-width:500px) and (max-width: 1024px) {
+	#sub-menu-wrap {
+		border-top: none;
+		border-bottom: none;
+		height: 0px;
+		top: -98px;
+	}
+
+	#sub-menu-wrap2 {
+		border-bottom: none;
+		height: 0px;
+
+		top: 0px;
+	}
+}
+
+@media only screen and (min-width:980px) and (max-width: 1199px) {
+	.new_tab>div {
+		left: -100px;
+		position: relative;
+	}
+
+	.new_tab.on>div {
+		left: -100px;
+		position: relative;
+	}
+
+	#RandD .ns_tab {
+		width: 22% !important;
+	}
+
+	#RandD .new_tab.on .ns_tab {
+		width: 22% !important;
+	}
+}
+
+@media only screen and (min-width:770px) and (max-width: 979px) {}

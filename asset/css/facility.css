@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+
+.new_tab.on>div {
+	left: 270px;
+	position: relative;
+}
+
+
+
+@media only screen and (min-width:1400px) and (max-width: 1499px) {
+
+	.container-1400,
+	.p-container-1400 {
+		width: 1200px;
+	}
+
+	.container-1600 {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+
+
+
+	div.new_tab.on {
+		left: 0px;
+	}
+
+	.new_tab.on .ns_tab {
+		width: 15% !important;
+		text-align: center;
+		background: #fff;
+		position: relative;
+		left: 0px;
+	}
+
+	.new_tab.on>div {
+		left: 54px;
+		position: relative;
+	}
+
+	.new_tab2.on>div {
+		left: 56px;
+		position: relative;
+	}
+
+	.new_tab2.on .ns_tab {
+		width: 15% !important;
+	}
+
+}
+
+@media only screen and (min-width:1200px) and (max-width: 1399px) {
+
+	.container-1400,
+	.p-container-1400 {
+		width: 1110px;
+	}
+
+	.container-1600 {
+		max-width: 1110px;
+		margin: 0 auto;
+	}
+
+	span.ns_tab a {
+		font-size: 13px !important;
+	}
+
+
+
+
+	div.new_tab.on {
+		left: 0px;
+	}
+
+	.new_tab.on .ns_tab {
+		width: 15% !important;
+		text-align: center;
+		background: #fff;
+		position: relative;
+		left: 0px;
+	}
+
+	.new_tab.on>div {
+		left: 54px;
+		position: relative;
+	}
+
+	.new_tab2.on>div {
+		left: 56px;
+		position: relative;
+	}
+
+	.new_tab2.on .ns_tab {
+		width: 15% !important;
+	}
+
+
+}
+
+@media only screen and (min-width:500px) and (max-width: 1024px) {
+	#sub-menu-wrap {
+		border-top: none;
+		border-bottom: none;
+		height: 0px;
+		top: -98px;
+	}
+
+	#sub-menu-wrap2 {
+		border-bottom: none;
+		height: 0px;
+
+		top: 0px;
+	}
+}
+
+@media only screen and (min-width:980px) and (max-width: 1199px) {
+
+	.container-1400,
+	.p-container-1400 {
+		width: 920px;
+	}
+
+	.container-1600 {
+		max-width: 920px;
+		margin: 0 auto;
+	}
+
+	.new_tab.on .ns_tab {
+		width: 10% !important;
+	}
+
+	.new_tab.on>div {
+		left: 51px;
+		position: relative;
+	}
+
+	span.ns_tab a {
+		font-size: 12px !important;
+	}
+
+
+
+	div.new_tab.on {
+		left: 0px;
+	}
+
+	.new_tab.on .ns_tab {
+		width: 15% !important;
+		text-align: center;
+		background: #fff;
+		position: relative;
+		left: 0px;
+	}
+
+	.new_tab.on>div {
+		left: 54px;
+		position: relative;
+	}
+
+	.new_tab2.on>div {
+		left: 56px;
+		position: relative;
+	}
+
+	.new_tab2.on .ns_tab {
+		width: 15% !important;
+	}
+
+
+
+}
+
+
+
+@media only screen and (min-width:770px) and (max-width: 979px) {
+	span.ns_tab a {
+		font-size: 12px;
+	}
+
+	.container-1400,
+	.p-container-1400 {
+		width: 700px;
+	}
+
+	.container-1600 {
+		max-width: 700px;
+		margin: 0 auto;
+	}
+
+
+}
+
+@media only screen and (min-width:500px) and (max-width: 769px) {
+
+	#s11_04 .container-1400 {
+		max-width: 650px;
+	}
+
+}
