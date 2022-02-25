@@ -793,6 +793,21 @@ figure {
 	border: 2px solid #ffffff
 }
 
+#top_goods_search_form input[type=search] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 70px;
+	padding: 0 20px;
+	margin: 20px 0;
+	border: 0;
+	background: transparent;
+	font-size: 30px;
+	color: #837b7b;
+	border: 2px solid #ffffff
+}
+
 .search-submit {
 	cursor: pointer;
 }
@@ -1282,6 +1297,12 @@ button:hover,
 	border-right: 2px solid #000;
 }
 
+.privacyPolicy{
+	width:98%; height:130px; overflow: scroll;
+	font-size: 13px;line-height: 25px;background: #eee;color: #676767;
+	padding: 15px;margin: 0px auto;
+}
+
 @media all and (max-width:500px) {
 	.header .logo {
 		margin-left: 16px;
@@ -1312,6 +1333,11 @@ button:hover,
 	#top_goods_search_form input[type=text] {
 		width: 75%;
 	}
+
+	#top_goods_search_form input[type=search] {
+		width: 75%;
+	}
+
 
 	#top_goods_search_form .search-submit {
 		width: 70px;
@@ -1419,6 +1445,11 @@ button:hover,
 
 	}
 
+	.pagination li .page-link {
+	    padding: 0.8rem 0rem !important;
+	    width: 28px;
+	    outline: none;
+	}
 
 }
 

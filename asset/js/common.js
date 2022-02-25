@@ -7,6 +7,8 @@ let common = {
 		}, function () {
 			$(".pc_menu_item").find("ul").stop().slideUp(0);
 			$(".background_mask").removeClass("on");
+			
+			
 		});
 
 
@@ -88,8 +90,10 @@ let common = {
 		});
 
 		$(".search_layer .search-submit").click(function () {
-			alert("검색");
-			$("#top_goods_search_form").submit();
+			
+				document.top_goods_search_form.pageIndex.value = 1;
+				document.top_goods_search_form.action = "/portal/community/everySearch/selectBoardList.do";
+				document.top_goods_search_form.submit();
 		});
 
 

@@ -18,14 +18,16 @@
 
 .main-section-01 .box .img_hover{position: relative; display:inline-block;  width: 16.86%; margin-top: 100px; font-size:30px; font-weight:500; height: 758px; text-align:center; border-left:1px solid rgb(238 238 238 / 0.5);background: transparent; box-sizing:border-box;}
 .main-section-01 .box .img_hover > a{position: absolute; top: 0;left: 0;right: 0;bottom: 0;color:#fff;line-height:758px; z-index: 5;}
-.main-section-01 .box .img_hover .bg01 {height: 758px; opacity:0; transition: 0.6s; margin-right: -1px;}
+
+
+/* .main-section-01 .box .img_hover .bg01 {height: 758px; opacity:0; transition: 0.6s; margin-right: -1px;}
 .main-section-01 .box .img_hover:hover .bg01{background: url(../img/main/mobile_banner_01.jpg) no-repeat; background-size: cover; opacity:1}
 .main-section-01 .box .img_hover .bg02 {height: 758px; opacity:0; transition: 0.6s; margin-right: -1px;}
 .main-section-01 .box .img_hover:hover .bg02{background: url(../img/main/mobile_banner_02.jpg) no-repeat; background-size: cover; opacity:1}
 .main-section-01 .box .img_hover .bg03 {height: 758px; opacity:0; transition: 0.6s; margin-right: -1px;}
 .main-section-01 .box .img_hover:hover .bg03{background: url(../img/main/mobile_banner_03.jpg) no-repeat; background-size: cover; opacity:1}
 
-
+ */
 
 /* -------- main-section-02 -- */
 .main-section-02{ padding-bottom:204px; position:relative; background: #fff;}
@@ -189,9 +191,9 @@ margin-top: 50px;
 	.main-section-01::after{content:"";display:block;width:auto;border-bottom:0px solid #eee;position:relative;z-index:22;box-shadow:0 0 0 rgb(0 0 0/80%)}
 	.main-section-01 .box.main_title.motto{text-align:left;margin-left:33%;line-height:2;top:20px;position:relative}
 
-.main-section-01 .box .main_title .motto {
-	top:0px
-}
+	.main-section-01 .box .main_title .motto {
+		top:0px
+	}
 
  	#main-bottom-txt{
 		 top: -200px;
@@ -249,17 +251,7 @@ margin-top: 50px;
 
 @media all and (max-width:760px) {
 	.main-section-01 .box .img_hover{width: 33.3%;}
-	.main-section-03 .icon_container .color_bg{height: 370px;}
-	.main-section-03 .icon_container .img_box{display: none;}
-	.main-section-03 .icon_container .m_img_box{display: block; position: absolute; width: 100%; text-align: center;}
-	.main-section-03 .icon_container .m_img_box.box01{bottom: 168px;}
-	.main-section-03 .icon_container .m_img_box.box02{bottom: 40px;}
-	.main-section-03 .icon_container .m_img_box .img{width: 50%; max-width:150px;height: 110px; margin: 0 20px;}
-	.main-section-03 .icon_container .m_img_box .img01{display:inline-block; background:url(../img/main/m-icon01.png) 50% 50% no-repeat; background-size:contain; }
-	.main-section-03 .icon_container .m_img_box .img02{display:inline-block; background:url(../img/main/m-icon02.png) 50% 50% no-repeat; background-size:contain}
-	.main-section-03 .icon_container .m_img_box .img03{display:inline-block; background:url(../img/main/m-icon03_1.png) 50% 50% no-repeat; background-size:contain}
-	.main-section-03 .icon_container .m_img_box .img04{display:inline-block; background:url(../img/main/m-icon04_1.png) 50% 50% no-repeat; background-size:contain}
-	.main-section-03 .slide .swiper-container .swiper-wrapper .swiper-slide > img{height: 200px;}
+	
 	.main-section-04{overflow: hidden; padding: 0 16px;}
 	.main-section-04 .news_container .news_item > img{max-width:none; height: 220px;}
 

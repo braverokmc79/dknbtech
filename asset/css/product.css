@@ -5,14 +5,14 @@
 	position: relative;
 }
 
-.new_tab.on .ns_tab.product_01,
-.new_tab.on .ns_tab.product_02,
-.new_tab.on .ns_tab.product_03,
-.new_tab.on .ns_tab.product_04,
-.new_tab.on .ns_tab.product_05,
-.new_tab.on .ns_tab.product_06 .new_tab.on .ns_tab.product_07,
-.new_tab.on .ns_tab.product_08,
-.new_tab.on .ns_tab.product_09,
+.new_tab.on .ns_tab.product_1,
+.new_tab.on .ns_tab.product_2,
+.new_tab.on .ns_tab.product_3,
+.new_tab.on .ns_tab.product_4,
+.new_tab.on .ns_tab.product_5,
+.new_tab.on .ns_tab.product_6 .new_tab.on .ns_tab.product_7,
+.new_tab.on .ns_tab.product_8,
+.new_tab.on .ns_tab.product_9,
 .new_tab.on .ns_tab.product_10,
 .new_tab.on .ns_tab.product_11 {
 	width: 7% !important;

@@ -1,7 +1,45 @@
 @charset "utf-8";
 
 
-
+    #view-of-the-company{
+            margin-top:50px;
+            font-size: 16px;
+            text-align: left;
+            border-top: 2px;
+            border-bottom: 3px solid #eee;
+            line-height: 2;
+        }
+        #view-of-the-company th{
+            width: 12%;
+            background: #F7F7F9;
+            text-align: center;
+            height:52px;
+            color:red; 
+            font-size: 17px;
+            font-weight: bold;
+            vertical-align: middle;
+        }
+        #view-of-the-company .tb-blank{
+            width:5%;
+        }					
+        #view-of-the-company td{
+            padding-left: 0px;
+        }
+        #view-of-the-company .no{
+            color: #fff;
+            background: red;
+        }
+        @media all and (max-width:500px) {
+            #view-of-the-company .table-span{
+                display: block;
+            }
+            #view-of-the-company .table-span-left{
+                margin-left: 0px !important;
+            }
+            #view-of-the-company .border-top-none{
+                border-top: none;
+            }
+        }
 
 @media all and (max-width:500px) {
     #s11_01 .main_sub_box {

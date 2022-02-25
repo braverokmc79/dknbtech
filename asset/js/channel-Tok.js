@@ -49,3 +49,9 @@
       "CUSTOM_VALUE_2": "VALUE_2"
     }
   });
+
+
+function checkNumber(event){
+  event.value=event.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');  
+}
+ 

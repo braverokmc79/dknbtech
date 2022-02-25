@@ -29,12 +29,9 @@ figure{margin: 0; padding: 0;}
 #sv .txt{padding-top: 10%; text-align: center; font-family: 'Montserrat', sans-serif; font-size:18px; letter-spacing:-0.05em; color: #fff}
 
 #sv .txt h5{ color: #ff0000;}
-#sv .txt p{ 
-font-size: 20px;
-margin-top: 20px;
-font-weight: 500;
-}
 
+
+#sv .txt p{font-size:20px;margin-top: 20px;font-weight: 500;}
 
 #sv.sv06 .txt,
 #sv.sv07 .txt{padding-top:162px;}
@@ -80,9 +77,6 @@ font-weight: 500;
 }
 
 @media all and (max-width:780px){
-	
-
-
 	.f_peb .peb{margin-top:70px;}
 	.sub_tit{font-size:28px;}
 	.dot_tit{font-size:18px;}
@@ -99,8 +93,13 @@ font-weight: 500;
 
 @media all and (max-width:500px){
 	#sv{height: 280px;}
-	#sv .txt{padding-top:98px;}
+	#sv .txt{padding-top:80px;}
 	#sv .txt > h5{font-size:32px;}
+	
+	
+	#sv .txt p {
+	    font-size: 1.0rem; 
+	}
 	
 	.p16{padding: 0 16px;}
 	
